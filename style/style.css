@@ -446,3 +446,114 @@ header h2{
     font-size: 97%;
 }
 
+@media (max-width: 1120px){
+
+    body{
+        font-size: 97%;
+    }
+    
+    header {
+        background: #F15B31;    
+        height: 28em;
+        width: 100%
+    }
+    
+    header h2{
+        width: 67%;
+        background-position: left bottom; 
+        background-size: 50%;
+        padding: 1em 0 1em 0.5em;
+        font-size: 240%;
+        height: 100%;    
+        line-height: 1.3em;   
+        font-weight: bold;
+    }
+
+    .summary{          
+        width: 100%;
+        height: auto;
+        padding: 2.5em 0 22em 0; 
+    }
+
+    .summary p{         
+        padding: 0em 1em 1.4em 35%;   
+    }
+
+    .preamble{
+        width: 100%;        
+        margin: 0;    
+        padding: 3.5em 0 3em 2%;
+    }
+
+    .preamble p:last-child {
+        background-color: #F15B31;          
+        height: 85%;
+        width: 33.3%;
+        padding: 6em 1em 20em 1em;
+        right: 0;
+    }
+    
+    .main{
+        background-size: 90em;
+    }
+
+    .explanation{
+        width: 67%;   
+    }
+
+    .explanation p{
+        width: 62%;
+    }
+
+    .participation{
+        left: 0;
+        width: 66.7%;
+        margin: 20em 0 0 0;
+    }
+
+    .benefits{
+        width: 33.3%;
+        left: 0;
+        margin-top: 11em;
+        height: 95%;
+    }
+
+    .requirements{
+        width: 75%;
+        columns: auto;    
+    }
+
+    .requirements h3{    
+        right: 87%;
+    }
+
+    .design-selection nav{
+        width: 100%;
+    }
+
+    .requirements:before{
+        height: 47em
+    }
+    
+    .main footer{
+        margin: 12em 0 0 0;
+    }   
+
+    .design-selection h3{
+        top: 13em;
+        left: 78%;
+    }
+
+    .design-selection nav ul li:first-child{
+        margin-bottom: -1em;    
+    }
+
+    .design-archives nav, .zen-resources ul{
+        width: 25%;
+        left: 50%;
+    }
+    
+    .design-archives h3, .zen-resources h3{
+        right: 50%;
+    }
+}
