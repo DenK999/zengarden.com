@@ -557,3 +557,205 @@ header h2{
         right: 50%;
     }
 }
+
+@media (max-width: 850px){
+    body{
+        font-size: 96%;
+    }
+
+    header{
+        height: 21em;
+    }
+
+    header h2{
+        font-size: 200%;
+    }
+
+    .summary{
+        padding: 2.5em 0 18em 0;
+    }
+    
+    .summary p{
+        padding: 0em 2em 1.4em 2%;
+    }
+    
+    .preamble{
+        height: 100%;
+        padding: 2em 0 1em 2%;
+    }
+        
+    .preamble p{
+        width: 95%;
+    }
+    
+    .preamble p:last-child{
+        background-color: inherit;
+        font-size: 95%;
+        color: #0D2C40;
+        width: 95%;   
+        margin: 0;
+        position: static;
+        padding: 0;
+    }
+    
+    .main{
+        background: none;
+        padding: 0;       
+    }
+    
+    .explanation{
+        background-image: none;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .explanation h3{
+        transform: none;
+        height: auto;
+        position: static;
+        float: none;
+        padding: 1em 0 0 1em;
+    }
+    
+    .explanation p{
+        width: 93%;
+        padding: 2em 0 1em 1.5em;
+    }
+    
+    .explanation p:last-child{
+        padding: 0 0 2.5em 1.5em;
+    }
+    
+    .participation{
+        margin: 0;
+        width: 100%;
+        position: relative;
+        clear: both;
+    }
+    
+    .benefits{        
+        width: 100%;
+        left: 0;
+        margin: 2em 0 0 0;
+        height: auto;
+        background-size: 33%;
+        opacity: 1;   
+        position: relative;
+        padding: 1em 0 0 0;
+    }
+    
+    .benefits h3{
+        margin-top: 8em;
+    }
+    
+    .benefits p{
+        padding: 0 1.3em 3em 1.2em;
+    }
+    
+    .requirements:before{
+        content: none;
+    }
+    
+    .requirements{    
+        width: 100%;
+        margin-top: 27%;
+        position: relative;
+        margin: 0;
+        background-color: #F6EFE5;
+    }
+    
+    .requirements h3{
+        transform: none;  
+        position: static;
+        font-size: 150%;
+        padding: 1em 0 0 1em;
+    }
+    
+    .main{
+        top: 0;
+    }
+    
+    .main footer{
+        position: relative;
+        margin: 0;
+        left: 0;
+        width: 100%;  
+        padding: 0 0 0 1em;
+        box-sizing: border-box;
+    }
+    
+    .main footer a:link{
+        padding-right: 0.5em;
+    }
+    
+    .sidebar{       
+        top: 1em;
+    }
+    
+    .design-selection nav{
+        margin-top: 8em;
+    }
+    
+    .design-selection h3{
+        top: 3em;
+        left: 3%;
+    }
+    
+    .design-selection nav ul li:first-child{
+        margin: 0;        
+    }
+    
+    .design-selection nav ul li, .design-selection nav ul li:first-child{
+        padding: 0 0 0 0;        
+        width: 100%;
+        height: 11em;
+        padding: 0 0 0 1em;
+    }
+    
+    .design-selection nav ul li:before{
+        font-size: 2.3em;
+        font-weight: bold;
+        display: block;
+        padding: 2em 0 0.3em 0;
+    }
+    
+    .design-selection nav ul li a:link{
+        display: inline;
+    }
+    
+    .design-archives, .zen-resources{
+        background-color: #31C5DA;
+    }
+    
+    .design-archives h3{
+        transform: none;
+        position: static;
+        padding: 3em 0 0 1em;
+    }
+    
+    .design-archives nav{
+        width: 100%;
+        left: 0;      
+        height: auto;
+    }
+    
+    .design-archives nav ul{
+        padding: 2em 0 1em 1.5em;
+        line-height: 2em;
+        font-size: 100%;
+    }
+    
+    .zen-resources h3{
+        transform: none;
+        position: static;
+        padding: 3em 0 0 1em;
+    }
+    
+    .zen-resources ul{
+        width: 100%;
+        left: 0;      
+        height: 22em;
+        background-size: 35%;
+        padding: 2em 0 0 1.3em;
+    }  
+}
