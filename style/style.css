@@ -1,0 +1,110 @@
+@font-face{
+    font-family: FF Pro;
+    src: url(fonts/FF Meta Pro - Normal.otf);
+}
+
+body{
+    font-family: ff-meta-web-pro, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #F6EFE5;   
+}
+
+header{
+    background-color: #C879B2;
+    width: 40%;
+    height: 50em;    
+    float: left;
+}
+
+.intro:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header h1{
+    position: absolute;
+    color: #FFFFFF;
+    transform: rotate(270deg);       
+    float: left;
+    font-size: 95%;  
+    top: 6em;
+    left: -2.5em;
+    font-weight: bold;
+}
+
+header h2{
+    color: #FFFFFF;
+    width: 50%;    
+    float: right;   
+    background: #153042 url(../images/icon-star.svg) no-repeat center bottom;
+    background-size: 101%;      
+    padding: 6.3em 1em 1em 0.5em;
+    font-size: 240%;
+    height: 100%;    
+    line-height: 1.3em;   
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.summary{    
+    color: #FFFFFF; 
+    float: left;    
+    background: #C879B2 url(../images/icons-3-pack.svg) no-repeat bottom;
+    background-size: 101%;
+    margin: 0;       
+    width: 60%;
+    height: 50em;
+    box-sizing: border-box;
+    padding: 16.2em 2em 10em 2em;    
+}
+
+.summary a:link{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.summary p{         
+    padding: 0 45% 2em 0;
+    line-height: 1.5;   
+}
+
+.preamble{    
+    width: 60%;
+    position: relative;
+    margin: 0 0 0 20%;  
+    line-height: 1.7em;    
+    box-sizing: border-box; 
+    float: left;
+    padding: 9.5em 0 9em 0;
+}
+
+.preamble h3{
+    font-weight: bold;
+    font-size: 140%;
+    color: #0D2C40;
+    margin: 0 0 1em 0;     
+}
+
+.preamble p{
+    font-size: 95%;
+    color: #0D2C40;
+    width: 63%;   
+    margin: 0 0 1em 0;
+}
+
+
+.preamble p:last-child{
+    background-color: #3AC2D8;          
+    height: 120%;
+    width: 33.7%;    
+    color: #FFFFFF;        
+    box-sizing: border-box;    
+    position: absolute;
+    top: 0;    
+    right: -0.1em;    
+    padding: 10.5em 1em 20em 1em;
+    z-index: 2;
+    opacity: 0.9;
+}
